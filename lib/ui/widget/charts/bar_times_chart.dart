@@ -12,7 +12,7 @@ class BarTimesChart extends StatelessWidget {
       data,
       defaultRenderer: charts.BarRendererConfig<DateTime>(),
       domainAxis: charts.DateTimeAxisSpec(
-          usingBarRenderer: true,
+//          usingBarRenderer: true,
           renderSpec: charts.SmallTickRendererSpec(
             labelStyle: charts.TextStyleSpec(
                 fontSize: 10, // size in Pts.
